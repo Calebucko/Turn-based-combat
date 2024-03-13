@@ -1,7 +1,7 @@
 Class Character(object):
-intialize class [__init__(fighter, stats)]
+intialize class [__init__(self)]
 create @property for fighter, return name(must contain string)
-define name variable for fighter
+define name setter  variable for fighter
 create @property for health(must be integer, can't be negative)
 define health variable for fighter
 create @property for hit change(must be integer, modulus?)
@@ -15,7 +15,7 @@ define armor value variable
 
 printstats method:
     read value for health, hit chance, max damage, and armor value
-    print in list
+    print in f string 
 
 
     
