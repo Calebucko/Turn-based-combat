@@ -1,4 +1,23 @@
 Class Character(object):
+intialize class [__init__(fighter, stats)]
+create @property for fighter, return name(must contain string)
+define name variable for fighter
+create @property for health(must be integer, can't be negative)
+define health variable for fighter
+create @property for hit change(must be integer, modulus?)
+define hit chance variable
+attach to number generator using percentages?
+@property for max damage of fighter (must be integer, can't be negative)
+define max damage variable
+apply comparison operators so it doesn't go over set value
+@property for armor value(integer, not negative)
+define armor value variable
+
+printstats method:
+    read value for health, hit chance, max damage, and armor value
+    print in list
+
+
     
 
 
