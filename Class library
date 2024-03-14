@@ -18,7 +18,7 @@ printstats method:
     print in f string 
 
 
-    
-
-
 Class Combat
+
+define function for fight
+    
