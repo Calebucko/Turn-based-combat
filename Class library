@@ -21,9 +21,11 @@ printstats method:
 Class Combat
 define method for hit
     use hit chance for percentage
+    print if hit from character connected
     damage must be in range 1-max damage
     recipient subtracts damage from hitpoints
     recipient adds back armor rating if they have it
+    print how much damage character dealt
 
 define function for fight
     use hit method to calculate damage against recipient
