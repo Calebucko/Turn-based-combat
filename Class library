@@ -19,6 +19,14 @@ printstats method:
 
 
 Class Combat
+define method for hit
+    use hit chance for percentage
+    damage must be in range 1-max damage
+    recipient subtracts damage from hitpoints
+    recipient adds back armor rating if they have it
 
 define function for fight
-    
+    use hit method to calculate damage against recipient
+    print damage for recipient
+    if recipient has not reached hitpoints ==0, then switch turns
+    otherwise, end the fight and print "[Character] reigns victorious.
