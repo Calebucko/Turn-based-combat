@@ -13,6 +13,11 @@ apply comparison operators so it doesn't go over set value
 @property for armor value(integer, not negative)
 define armor value variable
 
+use test integer function
+Makes sure input is integer 
+Makes sure integer is not negative
+If input doesn't meet requirements, set to default value
+
 printstats method:
     read value for health, hit chance, max damage, and armor value
     print in f string 
